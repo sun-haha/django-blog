@@ -3,3 +3,4 @@ db.ini
 virtualenvironment
 superuser.txt
 myproject/.vscode
+*.pyc
