@@ -1,3 +1,5 @@
 #my configurations, ingore the 'virtualenvironment' folder to commit
 db.ini
 virtualenvironment
+superuser.txt
+myproject/.vscode
