@@ -4,3 +4,4 @@ virtualenvironment
 superuser.txt
 myproject/.vscode
 *.pyc
+*migrations*
