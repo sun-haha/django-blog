@@ -7,3 +7,4 @@ myproject/.vscode
 *migrations*
 myproject/myproject/__pycache__/__init__.cpython-36.pyc
 myproject/myproject/__pycache__/settings.cpython-36.pyc
+*.vs
