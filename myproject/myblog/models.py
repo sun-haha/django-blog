@@ -28,7 +28,7 @@ class Blog(models.Model):
     content = models.TextField(verbose_name = '正文')
     createdTime = models.DateTimeField(verbose_name = '发布时间', auto_now_add = True)
     category = models.ForeignKey(Category, verbose_name = '分类')
-    tags = models.ManyToManyField(Tag, blank = True, null = True, verbose_name ='标签')
+    tags = models.ManyToManyField(Tag, verbose_name ='标签')
 
     def __str__(self):
         return self.title
